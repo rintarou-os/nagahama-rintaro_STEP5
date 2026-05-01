@@ -7,8 +7,7 @@
 
   .highlight {
     background-color: yellow;
-    background-color: yellow; /* 背景を黄色にする */
-  font-weight: bold;        /* 文字を太くする */
+  font-weight: bold;        
   transition: 0.3s; 
   }
 
@@ -16,9 +15,3 @@ body {
   background-color: yellow;
 }
 
-/* JavaScriptによってこのクラスが付与された時だけ適用される */
-.highlight {
-  background-color: yellow; /* 背景を黄色にする */
-  font-weight: bold;        /* 文字を太くする */
-  transition: 0.3s;         /* (補足) 変化をふわっとさせる */
-}
